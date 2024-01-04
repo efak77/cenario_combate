@@ -1,0 +1,32 @@
+.menu {
+    background-color: rgb(26, 53, 49);
+    padding: 10px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu ul {
+    font-family: 'Courier New', Courier, monospace;
+    list-style-type: none;
+    margin: 10;
+    padding: 10;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu img {
+    max-height: 80px;
+    vertical-align: middle;
+    margin-right: 20px;
+}
