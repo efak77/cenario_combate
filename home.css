@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+}
+
+.container {
+    background-color: rgb(26, 53, 49);
+    background-size: cover;
+    width: 100%;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.frase-1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.frase-2 {
+    font-family: cursive;
+    color: rgb(24, 155, 94);
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.escolha-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.escolha {
+    background-color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 20%;
+    border-radius: 15px;
+}
+
+.escolha img {
+    margin: 0 auto;
+    width: 70px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+}
+
+.sobre-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.qua-quadrado {
+    text-align: left;
+    width: 450px;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: rgb(24, 155, 94);
+    color: white;
+    margin-bottom: 20px;
+}
+
